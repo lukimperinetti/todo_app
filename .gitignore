@@ -1,0 +1,7 @@
+backend/node_modules
+backend/test
+backend/.eslintrc.js
+backend/.prettierrc
+backend/nest-cli.json
+backend/package-lock.json
+backend/tsconfig.build.json
