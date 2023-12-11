@@ -4,4 +4,5 @@ export declare class TodosController {
     private readonly todosService;
     constructor(todosService: TodosService);
     getAllTodos(): Todo[];
+    createTodo(newTodo: any): void;
 }

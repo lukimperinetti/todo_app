@@ -19,6 +19,9 @@ let TodosService = class TodosService {
     getAllTodos() {
         return this.todos;
     }
+    createTodo(todo) {
+        this.todos = [...this.todos, todo];
+    }
 };
 exports.TodosService = TodosService;
 exports.TodosService = TodosService = __decorate([

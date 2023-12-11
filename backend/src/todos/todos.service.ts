@@ -12,4 +12,8 @@ export class TodosService {
     getAllTodos(): Todo[] {
         return this.todos;
     }
+
+    createTodo(todo : Todo) {
+        this.todos = [...this.todos, todo]
+    }
 }
